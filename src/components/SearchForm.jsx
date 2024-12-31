@@ -1,4 +1,4 @@
-import { useGlobalContext } from '../Context';
+import { useGlobalContext } from '../context';
 
 function SearchForm() {
   const { setSearchTerm } = useGlobalContext();
