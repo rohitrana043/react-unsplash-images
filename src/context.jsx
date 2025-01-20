@@ -15,7 +15,7 @@ const getInitialDarkMode = () => {
 
 export const AppContextProvider = ({ children }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(getInitialDarkMode());
-  const [searchTerm, setSearchTerm] = useState('cat');
+  const [searchTerm, setSearchTerm] = useState('dog');
   const toggleDarkTheme = () => {
     const newDarkTheme = !isDarkTheme;
     setIsDarkTheme(newDarkTheme);
